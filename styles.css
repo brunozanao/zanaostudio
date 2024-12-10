@@ -533,3 +533,17 @@ html {
         height: 40px;
     }
 }
+
+    .section-title {
+        font-size: 3rem;
+    }
+
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+
+    .logo {
+        width: 150px;
+        height: 40px;
+    }
+}

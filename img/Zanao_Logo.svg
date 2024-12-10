@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265.5 238.57">
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255.14 173.41">
   <defs>
     <style>
-      .cls-1 {
-        font-family: Raleway-SemiBold, Raleway;
-        font-size: 28.61px;
-        font-weight: 600;
-      }
-
       .cls-1, .cls-2 {
         fill: #fff;
       }
 
       .cls-2 {
-        font-family: ft35-Semi-expandedBold, ft35;
-        font-size: 207.94px;
-        font-weight: 700;
+        font-family: Raleway-SemiBold, Raleway;
+        font-size: 28.61px;
+        font-weight: 600;
       }
     </style>
   </defs>
   <g id="Camada_1-2" data-name="Camada 1">
     <g>
-      <text class="cls-2" transform="translate(0 180.39)"><tspan x="0" y="0">Z</tspan></text>
-      <text class="cls-1" transform="translate(241.52 30.83)"><tspan x="0" y="0">®</tspan></text>
+      <path class="cls-1" d="M198.8,20.09c6.02,0,11.58,1.12,16.65,3.35,5.08,2.23,9.44,5.25,13.1,9.04,3.66,3.79,6.51,8.19,8.58,13.2,2.06,5.01,3.1,10.29,3.1,15.84,0,4.74-.8,9.19-2.39,13.35-1.59,4.16-3.83,7.89-6.7,11.17-2.88,3.28-6.31,6.08-10.31,8.38-4,2.3-8.43,3.96-13.3,4.98l-155.75,33.91h180.93v40.11H47.82c-5.89,0-11.69-.98-17.41-2.94-5.72-1.96-10.83-4.75-15.33-8.38-4.5-3.62-8.14-7.99-10.92-13.1-2.78-5.11-4.16-10.78-4.16-17.01,0-4.53.73-8.85,2.18-12.95,1.46-4.09,3.52-7.77,6.19-11.02,2.67-3.25,5.89-6.01,9.65-8.27,3.76-2.27,7.94-3.91,12.54-4.92l164.28-35.54H6.5V20.09h192.3Z"/>
+      <text class="cls-2" transform="translate(231.17 24.46)"><tspan x="0" y="0">®</tspan></text>
     </g>
   </g>
 </svg>
