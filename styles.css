@@ -534,7 +534,7 @@ html {
     }
 
     .section-title {
-        font-size: 3rem;
+        font-size: 2rem !important;
     }
 
     .process-steps {
