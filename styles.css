@@ -506,7 +506,7 @@ html {
 /* Responsive */
 @media (max-width: 768px) {
     .hero h1 {
-        font-size: 2.8rem;
+        font-size: 2.9rem;
     }
 
     .hero-info {
