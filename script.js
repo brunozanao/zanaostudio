@@ -26,6 +26,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// Logo slider
+document.addEventListener('DOMContentLoaded', function() {
+    const logoSliders = document.querySelectorAll('.logo-slide');
+    
+    logoSliders.forEach(slider => {
+        // Clone logos for infinite loop
+        const logos = slider.innerHTML;
+        slider.innerHTML = logos + logos;
+        
+        // Pause animation on hover
+        slider.addEventListener('mouseenter', () => {
+            slider.style.animationPlayState = 'paused';
+        });
+        
+        slider.addEventListener('mouseleave', () => {
+            slider.style.animationPlayState = 'running';
+        });
+    });
+});
+
 // Loader Animation
 window.addEventListener('load', () => {
     const loader = document.querySelector('.loader');

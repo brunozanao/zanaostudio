@@ -594,6 +594,68 @@ footer {
     }
 }
 
+/* Logo Slider */
+.trusted-by {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: #666;
+}
+
+.logo-slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo-slide {
+    display: flex;
+    animation: slide 20s linear infinite;
+    width: fit-content;
+}
+
+.logo-slide img {
+    height: 24px;
+    margin-right: 48px;
+    filter: grayscale(100%) brightness(200%);
+    transition: filter 0.3s ease;
+}
+
+.logo-slide img:hover {
+    filter: grayscale(0%) brightness(100%);
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Duplicate the logos for seamless loop */
+.logo-slide {
+    display: flex;
+}
+
+.logo-slide img:last-child {
+    margin-right: 0;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .logo-slide img {
+        height: 20px;
+        margin-right: 32px;
+    }
+    
+    .trusted-by {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+}
+
 /* Smooth scroll behavior */
 html {
     scroll-behavior: smooth;
@@ -642,3 +704,4 @@ html {
         width: 150px;
         height: 40px;
     }
+}
